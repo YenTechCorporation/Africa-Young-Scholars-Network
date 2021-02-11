@@ -1,17 +1,13 @@
 import React from 'react';
 import './App.css';
 import Header from './components/Header'
-import Banner from './components/Banner'
+import Home from './screens/Home'
 //TODO https://www.monde-diplomatique.fr
 function App() {
   return (
     <div className="app">
       <Header />
-      <Banner />
-      {/* body */}
-        {/* feed */}
-        {/* rightSide */}
-      {/* footer */}
+      <Home />
     </div>
   );
 }

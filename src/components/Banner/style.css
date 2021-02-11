@@ -1,0 +1,75 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
+
+.image-gallery {  
+    width: 100%;
+    height: 100%;
+    background-color: green
+}
+
+.image-gallery-slide img {
+    width: 100%;
+    height: 90%;
+    max-height: 50vh;
+    max-width: 70vw;
+    object-fit: cover;
+    overflow: hidden;
+    object-position: center center;
+}
+
+.fullscreen .image-gallery-slide img {
+    max-height: 100vh;
+}
+
+.banner_description{
+    background: rgba(13, 32, 13, 0.726);
+    top: 6rem;
+    height: fit-content;
+    width: 30rem;
+    color: yellow;
+    left: 20%; 
+    line-height: 1;
+    padding: 10px 20px;
+    position: absolute;
+    white-space: normal;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner_descriptionHeader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    width:24rem;
+    height: 6rem;
+    
+}
+
+.event__category > h1{
+    font-size: 50px;
+    color: white;
+    font-weight: 'bold';
+    font-family: inherit;
+}
+
+.event__date {
+    display: flex;
+    width: 30px;
+    flex-wrap: wrap;
+}
+
+.event__date > p{
+    color:white;
+    font-size: 20px;
+}
+
+.banner_descriptionBody{
+    color:white;
+    margin: 10px;
+}
+
+.banner_descriptionBody > h1{
+    color:white;
+    margin-bottom: 30px;
+}
