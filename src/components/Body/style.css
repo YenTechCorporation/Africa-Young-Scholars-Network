@@ -1,5 +1,15 @@
 
 .body_container{
+    /*display: grid;
+    grid-template-columns: auto auto auto;*/
     display: flex;
-    flex: 0.7;
+    flex: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 70%;
+    height: fit-content;
+    align-items: center;
+    justify-content: flex-start;
+    align-content:center;
+    background-color: aqua;
 }

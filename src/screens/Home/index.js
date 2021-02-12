@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import './styles.css'
 import Banner from '../../components/Banner'
 import Body from '../../components/Body'
 function Home() {
     return (
-        <div>
+        <div className = 'home__container'>
           <Banner />
           <Body/>
       {/* body */}

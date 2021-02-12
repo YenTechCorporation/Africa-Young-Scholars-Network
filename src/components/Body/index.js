@@ -6,6 +6,9 @@ function Body() {
     return (
         <div className="body_container">
             <BodyArticle/>
+            <BodyArticle/>
+            <BodyArticle/>
+            <BodyArticle/>
         </div>
     )
 }

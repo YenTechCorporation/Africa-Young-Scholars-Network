@@ -1,7 +1,25 @@
 .article__resume{
-    color: white;
+    width: 400px;
+    height: 600px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.article__header > h1{
+    font-weight: bold;
+    font-size:25px;
+    size:25px;
+    color:rgb(37, 37, 87);
+}
+.article__header > img {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center center;
 }
 
-.article__header{
-    
+.article__description{
+    padding: 5px;
+
 }
